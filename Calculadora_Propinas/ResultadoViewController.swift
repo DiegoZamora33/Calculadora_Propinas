@@ -36,7 +36,7 @@ class ResultadoViewController: UIViewController {
         txtCuenta.text = "$\(String(format: "%0.2f", miCuenta ?? 0.0))"
         txtPropina.text = "\(miPropinaPercent!) %"
         
-        let total = miCuenta! + ((miCuenta!) * (Float(miPropinaPercent!)/100))
+        let total = (miCuenta ?? Float(0.0)) + ((miCuenta ?? Float(0.0)) * (Float(miPropinaPercent!)/100))
         
         txtTotalPagar.text = "$\(String(format: "%0.2f", total))"
         
