@@ -15,6 +15,7 @@
 		A497770D2603FA9E0038BE81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A497770B2603FA9E0038BE81 /* LaunchScreen.storyboard */; };
 		A49777182603FA9E0038BE81 /* Calculadora_PropinasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49777172603FA9E0038BE81 /* Calculadora_PropinasTests.swift */; };
 		A49777232603FA9E0038BE81 /* Calculadora_PropinasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49777222603FA9E0038BE81 /* Calculadora_PropinasUITests.swift */; };
+		A4D029F72605241300A9AB33 /* ResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D029F62605241300A9AB33 /* ResultadoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A497771E2603FA9E0038BE81 /* Calculadora_PropinasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculadora_PropinasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49777222603FA9E0038BE81 /* Calculadora_PropinasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora_PropinasUITests.swift; sourceTree = "<group>"; };
 		A49777242603FA9E0038BE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D029F62605241300A9AB33 /* ResultadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				A49777002603FA9B0038BE81 /* AppDelegate.swift */,
 				A49777022603FA9B0038BE81 /* SceneDelegate.swift */,
+				A4D029F62605241300A9AB33 /* ResultadoViewController.swift */,
 				A49777042603FA9B0038BE81 /* ViewController.swift */,
 				A49777062603FA9B0038BE81 /* Main.storyboard */,
 				A49777092603FA9E0038BE81 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			files = (
 				A49777052603FA9B0038BE81 /* ViewController.swift in Sources */,
 				A49777012603FA9B0038BE81 /* AppDelegate.swift in Sources */,
+				A4D029F72605241300A9AB33 /* ResultadoViewController.swift in Sources */,
 				A49777032603FA9B0038BE81 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
